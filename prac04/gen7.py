@@ -7,3 +7,4 @@ gen = echo_generator()
 next(gen)  # Prime the generator
 gen.send("Hello")
 gen.send("World")
+ 
