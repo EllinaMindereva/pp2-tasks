@@ -1,3 +1,3 @@
 import datetime
-x = datetime.datetime.now()
-print(x.day - 5)
+x = datetime.date.today()
+print(x - datetime.timedelta(days=5))
