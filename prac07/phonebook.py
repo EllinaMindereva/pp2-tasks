@@ -70,6 +70,7 @@ def delete_name(name):
     command = "DELETE FROM contacts WHERE user_name = %s"
     with conn.cursor() as cur:
         cur.execute(command, (name,))
+        print(cur.rowcount)
         conn.commit()
     print("The contact was deleted")
 
