@@ -1,0 +1,41 @@
+[
+  {
+    "name": "birganym",
+    "email": "bbb88777@mail.ty",
+    "birthday": "2006-10-10",
+    "group": "Friend",
+    "phones": []
+  },
+  {
+    "name": "Dayana",
+    "email": "daya8876543@m.ru",
+    "birthday": "2007-08-09",
+    "group": "Work",
+    "phones": [
+      {
+        "phone": "6655342576",
+        "type": "mobile"
+      },
+      {
+        "phone": "5454443353",
+        "type": "home"
+      }
+    ]
+  },
+  {
+    "name": "Elena",
+    "email": "elena3637262@gmail.com",
+    "birthday": "2006-06-09",
+    "group": "Friend",
+    "phones": [
+      {
+        "phone": "87056788988",
+        "type": "mobile"
+      },
+      {
+        "phone": "87765324559",
+        "type": "home"
+      }
+    ]
+  }
+]
