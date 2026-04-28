@@ -29,7 +29,6 @@ def get_settings():
         "difficulty": "Easy"
     }
     settings = load_json('settings.json', default)
-    # Проверяем, что все ключи есть
     for key in default:
         if key not in settings:
             settings[key] = default[key]
