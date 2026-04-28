@@ -35,6 +35,5 @@ def get_settings():
             settings[key] = default[key]
     return settings
 
-def save_settings(settings):
-    """Сохраняет настройки игры"""
+def save_settings(settings):   
     save_json('settings.json', settings)
